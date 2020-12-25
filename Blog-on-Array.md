@@ -20,7 +20,7 @@ This kind of array is also called a *multi-dimensional array*.
 
 ## Accessing Data inside Arrays
 
-Data stored inside the arrays can be accessed using *indexes*. Just like strings, arrays also has *zero-based* indexing i.e., the first element of array has an index on *zero*, the second element has an index of *two*, the third element has an index of *three* and so on. 
+Data stored inside the arrays can be accessed using *indexes*. Just like strings, arrays also has *zero-based* indexing i.e., the first element of array has an index on *zero*, the second element has an index of *one*, the third element has an index of *two* and so on. 
 
 To access the data inside an array all you need to do is, write the name of array along with the index of data you want to access in square brackets (`[]`).
 
