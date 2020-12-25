@@ -20,9 +20,9 @@ This kind of array is also called a *multi-dimensional array*.
 
 ## Accessing Data inside Arrays
 
-Data stored inside the arrays can be accessed using *indexes*. Just like strings, arrays also has *zero-based* indexing i.e., the first element of array has an index on *zero*, the second element has an index of *one*, the third element has an index of *two* and so on. 
+Data stored inside the arrays can be accessed using *indexes*. Just like strings, arrays also have *zero-based* indexing i.e., the first element of the array has an index on *zero*, the second element has an index of *one*, the third element has an index of *two* and so on. 
 
-To access the data inside an array all you need to do is, write the name of array along with the index of data you want to access in square brackets (`[]`).
+To access the data inside an array all you need to do is, write the name of the array along with the index of data you want to access in square brackets (`[]`).
 
 You can either output this value or store it in another variable for further use. 
 
@@ -36,7 +36,7 @@ var myData2 = myArray[3];  // variable holds 56 as value
 
 ## Accessing Data inside Multi-Dimensional Array
 
-Accessing of data inside multi-dimensional arrays can also be done using *indexes*, but this time we have to use two sets of square brackets. First one for outer-most array (that is the container of all the other arrays) and the second one for the inside array. 
+Accessing of data inside multi-dimensional arrays can also be done using *indexes*, but this time we have to use two sets of square brackets. The first one for the outer-most array (that is the container of all the other arrays) and the second one for the inside array. 
 
 ```javascript
 var alsoArray = [[90, 45, 65], [34, 72, 46], [100, 81, 94]];
@@ -55,7 +55,7 @@ myArray[0] = 20;  // now myArray becomes [20, 26,30]
 
 ## Manipulating Arrays with push() function
 
-There is a `push()` function in JavaScript which helps to append data to the end of array upon it's calling. This function takes one or more parameters and *pushes* them onto the end of array.
+There is a `push()` function in JavaScript that helps to append data to the end of the array upon its calling. This function takes one or more parameters and *pushes* them onto the end of the array.
 
 ```javascript
 var myArray = [10, 56];
@@ -86,13 +86,15 @@ console.log(removedHero);   // output: batman
 
 ## Manipulating Arrays With unshift() function
 
-The `unshift()` function is somewhat like the `push()` function, the only difference is that it adds the given value to the front of array instead of the end of array.
+The `unshift()` function is somewhat like the `push()` function, the only difference is that it adds the given value to the front of the array instead of the end of the array.
 
 ```javascript
 var myLove = ["linux", "java",];
 unshift("javascript");  // now array is ["javascript", "linux", "java"]
 ```
 
-HURRAYY! You did it. This is all you needed to know about Arrays in JavaScript as a beginner. 
+HURRAY! You did it. This is all you needed to know about Arrays in JavaScript as a beginner. 
 
 ![GIF](https://media.giphy.com/media/26xBuwDvSNN9w8sda/giphy.gif)
+
+
